@@ -191,12 +191,10 @@ body{
     gap: 20px;
 }
 
-
-
 .infos-item{
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
 }
 
 .infos-item img{
@@ -207,7 +205,7 @@ body{
 
 .infos-item a{
     font-family: 'Cormorant', serif;
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 400;
     line-height: 1.2;
     color: #F2D8A7;
@@ -217,4 +215,70 @@ body{
 
 .infos-item a:hover{
     color: #F4F4F4;
+}
+
+/* Sobre */
+
+.sobre {
+    background-color: #2b2b2b;
+    padding: 100px;
+}
+
+
+.sobre h2{
+    text-align: center;
+    color: #f4f4f4;
+    font-family: 'Cormorant', serif;
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+
+.sobre-container{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+/* carrossel sobre */
+
+.sobre-slider{
+    width: 500px;
+    height: 620px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid #BF9765;
+    flex-shrink: 0;
+}
+
+.sobre-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.sobre-img.active{
+    opacity: 1;    
+}
+
+.sobre-texto h3{
+    color: #f4f4f4;
+    font-size: 22px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.sobre-texto p{
+    color: #F4F4F4;
+    font-size: 22px;
+    line-height: 1.5;
+    text-align: justify;
 }
