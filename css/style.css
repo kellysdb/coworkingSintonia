@@ -59,7 +59,7 @@ body{
 
 /* hero */
 
-.hero{
+.hero {
     height: calc(100vh - 122px);
     position: relative;
     overflow: hidden;
@@ -133,22 +133,22 @@ body{
     max-width: 850px;
 }
 
-.btn-hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 315px;
-    height: 70px;
-    margin: 100px auto 0;
-    background: #BF9765;
-    border-radius: 50px;
-    color: #F4F4F4;
-    font-family: 'Cormorant', serif;
-    font-size: 24px;
-    font-weight: 400;
-    text-decoration: none;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-    transition: .3s;
+    .btn-hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 315px;
+        height: 70px;
+        margin: 100px auto 0;
+        background: #BF9765;
+        border-radius: 50px;
+        color: #F4F4F4;
+        font-family: 'Cormorant', serif;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+        transition: .3s;
 
 }
 
@@ -156,7 +156,7 @@ body{
     transform: translateY(-3px);
 }
 
-/* INTRO */
+/* intro */
 
 .intro{
     background-color: #2B2B2B;
@@ -217,15 +217,15 @@ body{
     color: #F4F4F4;
 }
 
-/* Sobre */
+/* sobre */
 
-.sobre {
+.sobre{
     background-color: #2b2b2b;
     padding: 100px;
 }
 
 
-.sobre h2{
+.sobre h2{ 
     text-align: center;
     color: #f4f4f4;
     font-family: 'Cormorant', serif;
@@ -285,7 +285,7 @@ body{
 
 /* mvv */
 
-.mvv{
+.mvv {
     background: #2b2b2b;
     padding: 200px;
 }
@@ -336,7 +336,7 @@ body{
 
 /* vantagens */
 
-.vantagens {
+.vantagens{
     background: #2B2B2B;
     padding: 120px 100px;
 }
@@ -348,7 +348,7 @@ body{
     color: #F4F4F4;
 }
 
-.subtitulo {
+.subtitulo{
     text-align: center;
     margin-top: 30px;
     margin-bottom: 80px;
@@ -376,9 +376,8 @@ body{
 
 .vantagem-card:hover{
     transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgb(191, 151, 101,rgba(0,0,0,0.25));   
+    box-shadow: 0 15px 35px rgb(191, 151, 101,rgba(0,0,0,0.25));  
 }
-
 
 .icone{
     width: 80px;
@@ -392,7 +391,7 @@ body{
 }
 
 .icone img{
-    width: 45px;
+    width: 60px;
 }
 
 .vantagem-card h3{
@@ -408,3 +407,231 @@ body{
     line-height: 1.7;
 }
 
+/* espaco */
+
+.espacos{
+    background: #F4F4F4;
+    padding: 120px 100px;
+}
+
+.espacos-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.espacos-titulos{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 100px;
+}
+
+.espacos-titulos h2{
+    font-family: 'Cormorant', serif;
+    font-size: 48px;
+    font-weight: 600;
+    color: #402A10;
+    margin-bottom: 20px;
+}
+
+.espacos-titulos p{
+    font-size: 24px;
+    color: #402A10;
+    line-height: 1.6;
+}
+
+.espaco-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 90px;
+}
+
+.espaco-card.reverse{
+    flex-direction: row-reverse;
+}
+
+.espaco-slider{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    border: 3px solid #BF9765;
+    flex-shrink: 0;
+}
+
+.galeria-indicador{
+    position: absolute;
+    right: 18px;
+    bottom: 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: rgba(0,0,0,.45);
+    backdrop-filter: blur(8px);
+    border-radius: 50px;
+    color: #F4F4F4;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.galeria-indicador img{
+    width: 18px;
+    height: 18px;
+    pointer-events: none;
+}
+
+.galeria-indicador span{
+    pointer-events: none;
+}
+
+.espaco-slider:hover .galeria-indicador{
+    background: rgba(0,0,0,.65);
+    transform: translateY(-2px);
+}
+
+.espaco-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.espaco-img.active{
+    opacity: 1;
+}
+
+.espaco-texto{
+    flex: 1;
+    max-width: 550px;
+}
+
+.espaco-texto h3{
+    font-family: 'Cormorant', serif;
+    font-size: 46px;
+    font-weight: 600;
+    color: #402A10;
+    margin-bottom: 18px;
+}
+
+.espaco-texto h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #402A10;
+    margin-bottom: 25px;
+}
+
+.espaco-texto p{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    line-height: 1.8;
+    color: #402A10;
+    text-align: justify;
+}
+
+
+.btn-espaco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 70px;
+    margin: 20px auto 0;
+    background: #BF9765;
+    color: #F4F4F4;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 400;
+    transition: .3s;
+    margin-top: 100px;
+}
+
+.btn-espaco:hover{
+    transform: translateY(-4px);
+}
+
+
+/* modal galeria - espaços */
+
+.modal-galeria{
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.85);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: .3s ease;
+
+    z-index: 9999;
+}
+
+.modal-galeria.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.imagem-modal{
+    width: 80%;
+    max-width: 1100px;
+    max-height: 85vh;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.fechar-galeria{
+    position: absolute;
+    top: 40px;
+    right: 60px;
+    background: transparent;
+    border: none;
+    color: #F4F4F4;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.anterior,
+.proximo{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: rgba(255,255,255,.15);
+    color: white;
+    font-size: 32px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.anterior:hover,
+.proximo:hover{
+    background: rgba(255,255,255,.3);
+}
+
+.anterior{
+    left: 40px;
+}
+
+.proximo{
+    right: 40px;
+}
