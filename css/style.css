@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Inter', sans-serif;
+    padding-top: 110px;
 }
 
 .header{
@@ -13,7 +14,15 @@ body{
     display: flex;
     align-items: center;
     padding: 20px 100px;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .logo img{
@@ -50,7 +59,7 @@ body{
     width: 0;
     height: 3px;
     background: #f4f4f4;
-    transition: width .5s ease;
+    transition: width .7s ease;
 }
 
 .menu a:hover::after{
@@ -63,6 +72,7 @@ body{
     height: calc(100vh - 122px);
     position: relative;
     overflow: hidden;
+    
 }
 
 /* imgs */
@@ -222,6 +232,7 @@ body{
 .sobre{
     background-color: #2b2b2b;
     padding: 100px;
+    scroll-margin-top: 120px;
 }
 
 
@@ -339,6 +350,7 @@ body{
 .vantagens{
     background: #2B2B2B;
     padding: 120px 100px;
+    scroll-margin-top: 120px;
 }
 
 .vantagens h2{
@@ -412,6 +424,7 @@ body{
 .espacos{
     background: #F4F4F4;
     padding: 120px 100px;
+    scroll-margin-top: 120px;
 }
 
 .espacos-container{
@@ -444,7 +457,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 90px;
-    margin-bottom: 90px;
+    margin-bottom: 200px;
 }
 
 .espaco-card.reverse{
@@ -634,4 +647,109 @@ body{
 
 .proximo{
     right: 40px;
+}
+
+/* avaliaçoes */
+
+.comentarios{
+    background: #2B2B2B;
+    padding: 120px 100px;
+    scroll-margin-top: 120px;
+}
+
+.comentarios-container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.comentarios h2{
+    color: #F4F4F4;
+    font-family: "Cormorant", serif;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 70px;
+    font-weight: 400;
+}
+
+.cards-comentarios{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.comentario-card{
+    width: 440px;
+    background: #F4F4F4;
+    border: 4px solid #BF9765;
+    border-radius: 12px;
+    padding: 35px;
+}
+
+.comentario-topo{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.comentario-topo h3{
+    font-family: Inter;
+    font-size: 21px;
+    margin-bottom: 6px;
+}
+
+.avaliacao{
+    color: #FFC107;
+    font-size: 21px;
+}
+
+.avaliacao span{
+    color: #888;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.comentario-card p{
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #222;
+}
+
+.mais-avaliacoes{
+    display: block;
+    margin-top: 45px;
+    text-align: center;
+    color: #F4F4F4;
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+.avaliar{
+    margin-top: 25px;
+    text-align: center;
+    color: #F4F4F4;
+    font-family: "Cormorant", serif;
+    font-size: 30px;
+    margin-top: 75px;
+}
+
+.avaliar a{
+    color: #F4F4F4;
+    text-decoration: underline; 
 }
