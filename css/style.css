@@ -231,7 +231,7 @@ html {
 
 .sobre{
     background-color: #2b2b2b;
-    padding: 100px;
+    padding: 200px;
     scroll-margin-top: 120px;
 }
 
@@ -298,7 +298,7 @@ html {
 
 .mvv {
     background: #2b2b2b;
-    padding: 200px;
+    padding: 300px;
 }
 
 .mvv-container{
@@ -349,7 +349,7 @@ html {
 
 .vantagens{
     background: #2B2B2B;
-    padding: 120px 100px;
+    padding: 200px 100px;
     scroll-margin-top: 120px;
 }
 
@@ -363,7 +363,7 @@ html {
 .subtitulo{
     text-align: center;
     margin-top: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     font-size: 27px;
     color: #F4F4F4;
     font-weight: 00;
@@ -374,7 +374,7 @@ html {
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 40px;
+    gap: 50px;
 }
 
 .vantagem-card{
@@ -423,7 +423,7 @@ html {
 
 .espacos{
     background: #F4F4F4;
-    padding: 120px 100px;
+    padding: 150px 100px;
     scroll-margin-top: 120px;
 }
 
@@ -752,4 +752,110 @@ html {
 .avaliar a{
     color: #F4F4F4;
     text-decoration: underline; 
+}
+
+/* serviços */
+
+.serviços{
+    padding: 120px;
+    background: #F4F4F4;
+}
+
+.serviço-container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.titulo-serviços h2{
+    font-family: 'Cormorant', serif;
+    font-size: 56px;
+    color: #402A10;
+    text-align: center;
+}
+
+.titulo-serviços p{
+    margin-top:15px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.serviço{
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-bottom: 120px;
+}
+
+.servico-img{
+    width: 460px;
+    flex-shrink: 0;
+}
+
+.servico-img img{
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-top-left-radius: 30%;
+}
+
+.servico-img h3{
+    background: #2B2B2B;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-family: 'Cormorant', serif;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.serviço-info ul{
+    list-style: none;
+}
+
+.serviço-info li{
+    font-size: 24px;
+    margin-bottom: 24px;
+    position: relative;
+    padding-left: 60px;
+}
+
+.serviço-info li::before{
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #BF9765;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.serviço-ctt p{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Cormorant', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #402A10;
+    margin-top: 100px;
+}
+
+.btn-agendar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    margin: 60px auto 0;
+    background: #BF9765;
+    color: #F4F4F4;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 400;
+    transition: .3s;
+}
+
+.btn-agendar:hover{
+    transform: translateY(-4px);
 }
