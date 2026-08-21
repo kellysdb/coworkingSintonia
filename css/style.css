@@ -143,22 +143,22 @@ html {
     max-width: 850px;
 }
 
-    .btn-hero{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 315px;
-        height: 70px;
-        margin: 100px auto 0;
-        background: #BF9765;
-        border-radius: 50px;
-        color: #F4F4F4;
-        font-family: 'Cormorant', serif;
-        font-size: 24px;
-        font-weight: 400;
-        text-decoration: none;
-        box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
-        transition: .3s;
+.btn-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 315px;
+    height: 70px;
+    margin: 100px auto 0;
+    background: #BF9765;
+    border-radius: 50px;
+    color: #F4F4F4;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    transition: .3s;
 
 }
 
@@ -805,7 +805,7 @@ html {
 /* serviços */
 
 .serviços{
-    padding: 400px 120px 120px;
+    padding: 400px 120px 250px;
     background: #F4F4F4;
 }
 
@@ -909,3 +909,175 @@ html {
     transform: translateY(-3px);
 }
 
+/* footer*/
+
+.footer{
+    background: #2B2B2B;
+    color: #F4F4F4;
+    padding: 190px 80px 150px;
+}
+
+.footer-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 200px;
+}
+
+.footer-marca h2{
+    margin: 0 0 20px;
+    color: #F2D8A7;
+    font-family: "Inter", serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-marca p{
+    max-width: 400px;
+    margin: 0;
+    color: #F4F4F4;
+    font-family: "Cormorant", sans-serif;
+    font-size: 28px;
+    line-height: 1.7;
+}
+
+
+.footer-contato h3,
+.footer-local h3{
+    margin: 30px 0 30px;
+    color: #F2D8A7;
+    font-family: "Inter", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.footer-contato p{
+    margin-bottom: 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.footer-contato span{
+    display: block;
+    margin-bottom: 4px;
+    color: #F2D8A7;
+    font-weight: 600;
+}
+
+.footer-contato a{
+    color: #F4F4F4;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-contato a:hover{
+    color: #F2D8A7;
+}
+
+.footer-local p{
+    margin: 0 0 20px;
+    color: #F4F4F4;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.footer-mapa{
+    color: #F2D8A7;
+    font-family: "Cormorant", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-mapa:hover{
+    color: #f4f4f4;
+}
+
+.footer-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 70px;
+    margin: 70px 0 0;
+    background: #BF9765;
+    border-radius: 50px;
+    color: #F4F4F4;
+    font-family: 'Cormorant', serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: .3s;
+}
+
+.footer-btn:hover{
+    transform: translateY(-3px);
+}
+
+.footer-btn:hover{
+    transform: translateY(-3px);
+}
+
+.footer-linha{
+    max-width: 1400px;
+    height: 4px;
+    margin: 80px auto 45px;
+    background: #BF9765;
+    opacity: 0.5;
+}
+
+
+.footer-bottom{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.footer-bottom p{
+    margin: 0;
+    color: #D9D9D9;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.footer-bottom strong {
+    color: #BF9765;
+    font-weight: 600;
+}
+
+.footer-creditos {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.footer-creditos span {
+    color: #D9D9D9;
+}
+
+.footer-creditos strong {
+    color: #BF9765;
+    font-weight: 600;
+}
+
+.footer-creditos a {
+    color: #F4F4F4;
+    text-decoration: none;
+
+    transition: .3s;
+}
+
+.footer-creditos a:hover {
+    color: #BF9765;
+}
