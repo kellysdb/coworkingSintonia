@@ -240,7 +240,7 @@ html {
     text-align: center;
     color: #f4f4f4;
     font-family: 'Cormorant', serif;
-    font-size: 42px;
+    font-size: 46px;
     font-weight: 600;
     margin-bottom: 70px;
 }
@@ -281,17 +281,21 @@ html {
 
 .sobre-texto h3{
     color: #f4f4f4;
-    font-size: 22px;
+    font-size: 25px;
     margin-bottom: 15px;
     margin-top: 25px;
     font-weight: 600;
+    padding: 0px 40px 0px;
+    margin-top: 40px;
 }
 
 .sobre-texto p{
     color: #F4F4F4;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.5;
     text-align: justify;
+    padding: 10px 40px;
+    margin-bottom: 60px;
 }
 
 /* mvv */
@@ -339,17 +343,18 @@ html {
 
 .mvv-card p{
     font-family: 'Inter', serif;
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 300;
     color: #f4f4f4;
-    line-height: 1.8;
+    line-height: 1.5;
+    text-align: inherit;
 }
 
 /* vantagens */
 
 .vantagens{
     background: #2B2B2B;
-    padding: 200px 100px;
+    padding: 200px 150px;
     scroll-margin-top: 120px;
 }
 
@@ -358,6 +363,7 @@ html {
     font-family: 'Cormorant', serif;
     font-size: 46px;
     color: #F4F4F4;
+    padding: 20px 0;
 }
 
 .subtitulo{
@@ -414,7 +420,7 @@ html {
 }
 
 .vantagem-card p{
-    font-size: 20px;
+    font-size: 22px;
     color: #402a10;
     line-height: 1.7;
 }
@@ -440,14 +446,14 @@ html {
 
 .espacos-titulos h2{
     font-family: 'Cormorant', serif;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 600;
     color: #402A10;
     margin-bottom: 20px;
 }
 
 .espacos-titulos p{
-    font-size: 24px;
+    font-size: 27px;
     color: #402A10;
     line-height: 1.6;
 }
@@ -531,24 +537,24 @@ html {
 
 .espaco-texto h3{
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 42px;
     font-weight: 600;
     color: #402A10;
-    margin-bottom: 18px;
+    margin-bottom: 40px;
 }
 
 .espaco-texto h4{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: 600;
     color: #402A10;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 .espaco-texto p{
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    line-height: 1.8;
+    font-size: 24px;
+    line-height: 1.5;
     color: #402A10;
     text-align: justify;
 }
@@ -666,7 +672,7 @@ html {
 .comentarios h2{
     color: #F4F4F4;
     font-family: "Cormorant", serif;
-    font-size: 48px;
+    font-size: 46px;
     text-align: center;
     margin-bottom: 70px;
     font-weight: 400;
@@ -708,13 +714,13 @@ html {
 
 .comentario-topo h3{
     font-family: Inter;
-    font-size: 21px;
+    font-size: 22px;
     margin-bottom: 6px;
 }
 
 .avaliacao{
     color: #FFC107;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 .avaliacao span{
@@ -725,7 +731,7 @@ html {
 
 .comentario-card p{
     font-family: Inter;
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.6;
     color: #222;
 }
@@ -771,7 +777,7 @@ html {
 .titulo-empresas h2 {
     color: #402A10;
     font-family: 'Cormorant', serif;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 700;
     margin: 0 0 70px;
     padding: 150px;
@@ -816,16 +822,17 @@ html {
 
 .titulo-serviços h2{
     font-family: 'Cormorant', serif;
-    font-size: 56px;
+    font-size: 46px;
     color: #402A10;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 .titulo-serviços p{
     margin-top:15px;
     font-size: 24px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 90px;
 }
 
 .serviço{
@@ -845,6 +852,7 @@ html {
     height: 390px;
     object-fit: cover;
     border-top-left-radius: 30%;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);;
 }
 
 .servico-img h3{
@@ -929,7 +937,7 @@ html {
     margin: 0 0 20px;
     color: #F2D8A7;
     font-family: "Inter", serif;
-    font-size: 48px;
+    font-size: 46px;
     font-weight: 700;
 }
 
@@ -938,7 +946,7 @@ html {
     margin: 0;
     color: #F4F4F4;
     font-family: "Cormorant", sans-serif;
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.7;
 }
 
@@ -955,7 +963,7 @@ html {
 .footer-contato p{
     margin-bottom: 30px;
     font-family: "Inter", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.6;
 }
 
@@ -980,14 +988,14 @@ html {
     margin: 0 0 20px;
     color: #F4F4F4;
     font-family: "Inter", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.7;
 }
 
 .footer-mapa{
     color: #F2D8A7;
     font-family: "Cormorant", sans-serif;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
@@ -1056,10 +1064,10 @@ html {
 .footer-creditos {
     display: flex;
     align-items: center;
-    gap: 18px;
+    gap: 24px;
 
     font-family: "Inter", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .footer-creditos span {
