@@ -125,3 +125,13 @@ document.addEventListener("keydown",(e)=>{
     }
 
 });
+
+
+/* menu - mobile */
+
+const botaoMenu = document.querySelector(".menu-mobile");
+const menu = document.querySelector(".menu");
+
+botaoMenu.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+});
