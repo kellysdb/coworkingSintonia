@@ -50,7 +50,7 @@ html {
     position: relative;
     text-decoration: none;
     color: #f4f4f4;
-    font-size: 20px;
+    font-size: 18px;
     transition: .3s;
 }
 
@@ -123,15 +123,16 @@ html {
 }
 
 .hero-logo img {
-    width: 800px;
+    width: 480px;
     height: auto;
     margin-bottom: 50px;
     transform: translateY(-40px);
+    max-width: 80vw;
 }
 
 .hero-content h1 {
     font-family: 'Cormorant', serif;
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 500;
     line-height: 1.2;
     padding: 40px 0;
@@ -140,26 +141,27 @@ html {
 
 .hero-content p {
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
     margin: auto;
-    max-width: 850px;
     margin-top: 25px;
+    max-width: 700px;
+    white-space: normal;
 }
 
 .btn-hero {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 315px;
-    height: 70px;
-    margin: 100px auto 0;
+    width: 260px;
+    height: 58px;
+    margin: 60px auto 0;
     background: #BF9765;
     border-radius: 50px;
     color: #F4F4F4;
     font-family: 'Cormorant', serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -191,12 +193,13 @@ html {
     flex: 1;
 }
 
-.intro-texto h2 {
+.intro-texto h3 {
     font-family: 'Cormorant', serif;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 400;
     color: #F2D8A7;
     line-height: 1.2;
+    padding: 100px 100px;
 }
 
 .infos {
@@ -220,7 +223,7 @@ html {
 
 .infos-item a {
     font-family: 'Cormorant', serif;
-    font-size: 27px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.2;
     color: #F2D8A7;
@@ -236,18 +239,17 @@ html {
 
 .sobre {
     background-color: #2b2b2b;
-    padding: 150px 100px;
+    padding: 220px 100px;
     scroll-margin-top: 120px;
 }
-
 
 .sobre h2 {
     text-align: center;
     color: #f4f4f4;
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 600;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
 
 .sobre-container {
@@ -258,11 +260,31 @@ html {
     gap: 120px;
 }
 
+.sobre-texto h3 {
+    color: #f4f4f4;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 500;
+    padding: 0px 40px 0px;
+    margin-top: 10px;
+}
+
+.sobre-texto p {
+    color: #F4F4F4;
+    font-size: 16px;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 10px 40px;
+    margin-bottom: 60px;
+    max-width: 600px;
+    white-space: normal;
+}
+
 /* carrossel sobre */
 
 .sobre-slider {
-    width: 500px;
-    height: 620px;
+    width: 450px;
+    height: 500px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -284,24 +306,7 @@ html {
     opacity: 1;
 }
 
-.sobre-texto h3 {
-    color: #f4f4f4;
-    font-size: 25px;
-    margin-bottom: 15px;
-    margin-top: 25px;
-    font-weight: 600;
-    padding: 0px 40px 0px;
-    margin-top: 40px;
-}
 
-.sobre-texto p {
-    color: #F4F4F4;
-    font-size: 24px;
-    line-height: 1.5;
-    text-align: justify;
-    padding: 10px 40px;
-    margin-bottom: 60px;
-}
 
 /* mvv */
 
@@ -324,8 +329,7 @@ html {
 }
 
 .mvv-card img {
-    width: 120px;
-    height: 120px;
+    width: 70px;
     margin-bottom: 25px;
     transition: .3s;
 }
@@ -334,50 +338,48 @@ html {
     transform: translateY(-8px) scale(1.05);
 }
 
-.mvv-card h2 {
+.mvv-card h3 {
     font-family: 'Cormorant', serif;
-    font-size: 42px;
+    font-size: 30px;
     font-weight: 600;
     color: #f4f4f4;
     margin-bottom: 30px;
 }
 
-.mvv-card h2 {
-    color: #f4f4f4;
-}
 
 .mvv-card p {
     font-family: 'Inter', serif;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 300;
     color: #f4f4f4;
     line-height: 1.5;
-    text-align: inherit;
 }
 
 /* vantagens */
 
 .vantagens {
     background: #2B2B2B;
-    padding: 200px 150px;
+    padding: 100px 60px;
     scroll-margin-top: 120px;
 }
 
 .vantagens h2 {
     text-align: center;
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 36px;
     color: #F4F4F4;
-    padding: 20px 0;
+    padding: 20px;
+    margin-top: 100px;
+
 }
 
 .subtitulo {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 60px;
-    font-size: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
     color: #F4F4F4;
-    font-weight: 00;
+    font-weight: 400;
 }
 
 .vantagens-grid {
@@ -386,15 +388,18 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+    padding: 40px 150px;
 }
 
 .vantagem-card {
     background: #F4F4F4;
     border: 3px solid #BF9765;
     border-radius: 30px;
-    padding: 30px;
+    padding: 25px;
     text-align: center;
     transition: .3s;
+    width: 350px;
+    height: 350px;
 }
 
 .vantagem-card:hover {
@@ -403,8 +408,8 @@ html {
 }
 
 .icone {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     background: #F2D8A7;
     border-radius: 50%;
     margin: 25px auto;
@@ -414,20 +419,20 @@ html {
 }
 
 .icone img {
-    width: 60px;
+    width: 40px;
 }
 
 .vantagem-card h3 {
     font-family: 'Cormorant', serif;
-    font-size: 34px;
+    font-size: 28px;
     color: #402a10;
     margin-bottom: 20px;
 }
 
 .vantagem-card p {
-    font-size: 22px;
+    font-size: 16px;
     color: #402a10;
-    line-height: 1.7;
+    line-height: 1.6;
 }
 
 /* espaco */
@@ -451,16 +456,18 @@ html {
 
 .espacos-titulos h2 {
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 600;
     color: #402A10;
     margin-bottom: 20px;
 }
 
 .espacos-titulos p {
-    font-size: 27px;
+    font-size: 20px;
     color: #402A10;
+    font-family: 'Inter', serif;
     line-height: 1.6;
+    font-weight: 400;
 }
 
 .espaco-card {
@@ -476,8 +483,8 @@ html {
 }
 
 .espaco-slider {
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     position: relative;
     overflow: hidden;
     border-radius: 20px;
@@ -497,9 +504,8 @@ html {
     backdrop-filter: blur(8px);
     border-radius: 50px;
     color: #F4F4F4;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Inter', sans-serif;
-    font-weight: 500;
     border: none;
     outline: none;
     cursor: pointer;
@@ -507,8 +513,8 @@ html {
 }
 
 .galeria-indicador img {
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     pointer-events: none;
 }
 
@@ -517,7 +523,7 @@ html {
 }
 
 .espaco-slider:hover .galeria-indicador {
-    background: rgba(0, 0, 0, .65);
+    background: rgba(0, 0, 0, .55);
     transform: translateY(-2px);
 }
 
@@ -542,26 +548,30 @@ html {
 
 .espaco-texto h3 {
     font-family: 'Cormorant', serif;
-    font-size: 42px;
+    font-size: 32px;
     font-weight: 600;
     color: #402A10;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .espaco-texto h4 {
     font-family: 'Inter', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: #402A10;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    max-width: 400px;
+    white-space: normal;
 }
 
 .espaco-texto p {
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.5;
     color: #402A10;
     text-align: justify;
+    max-width: 400px;
+    white-space: normal;
 }
 
 
@@ -569,14 +579,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 420px;
-    height: 70px;
-    margin: 100px auto 0;
+    width: 300px;
+    height: 58px;
+    margin: 20px auto;
     background: #BF9765;
     border-radius: 50px;
     color: #F4F4F4;
     font-family: 'Cormorant', serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -627,7 +637,7 @@ html {
     background: transparent;
     border: none;
     color: #F4F4F4;
-    font-size: 22px;
+    font-size: 16px;
     cursor: pointer;
 }
 
@@ -677,7 +687,7 @@ html {
 .comentarios h2 {
     color: #F4F4F4;
     font-family: "Cormorant", serif;
-    font-size: 46px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 70px;
     font-weight: 400;
@@ -719,45 +729,43 @@ html {
 
 .comentario-topo h3 {
     font-family: Inter;
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 6px;
 }
 
 .avaliacao {
     color: #FFC107;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 .avaliacao span {
     color: #888;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .comentario-card p {
     font-family: Inter;
-    font-size: 22px;
+    font-size: 16px;
     line-height: 1.6;
     color: #222;
 }
 
 .mais-avaliacoes {
     display: block;
-    margin-top: 45px;
     text-align: center;
     color: #F4F4F4;
     font-family: "Cormorant", serif;
-    font-size: 30px;
+    font-size: 28px;
     text-decoration: underline;
     margin-top: 50px;
 }
 
 .avaliar {
-    margin-top: 25px;
     text-align: center;
     color: #F4F4F4;
     font-family: "Cormorant", serif;
-    font-size: 30px;
+    font-size: 28px;
     margin-top: 75px;
 }
 
@@ -782,10 +790,10 @@ html {
 .titulo-empresas h2 {
     color: #402A10;
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 700;
     margin: 0 0 70px;
-    padding: 150px;
+    padding: 70px;
 }
 
 .logos-empresas {
@@ -797,7 +805,7 @@ html {
 }
 
 .logos-empresas img {
-    width: 170px;
+    width: 120px;
     height: 90px;
     object-fit: contain;
 }
@@ -807,10 +815,10 @@ html {
     max-width: 800px;
     color: #402A10;
     font-family: 'Inter', serif;
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 1.3;
-    padding: 250px 10px;
+    padding: 120px 10px;
 }
 
 /* serviços */
@@ -827,7 +835,7 @@ html {
 
 .titulo-serviços h2 {
     font-family: 'Cormorant', serif;
-    font-size: 46px;
+    font-size: 36px;
     color: #F4F4F4;
     text-align: center;
     margin-bottom: 60px;
@@ -835,10 +843,11 @@ html {
 
 .titulo-serviços p {
     margin-top: 15px;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 90px;
     color: #F4F4F4;
+    font-weight: 400;
 }
 
 .serviço {
@@ -849,13 +858,13 @@ html {
 }
 
 .servico-img {
-    width: 460px;
+    width: 350px;
     flex-shrink: 0;
 }
 
 .servico-img img {
     width: 100%;
-    height: 390px;
+    height: 300px;
     object-fit: cover;
     border-top-left-radius: 30%;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
@@ -865,10 +874,10 @@ html {
 .servico-img h3 {
     background: #BF9765;
     color: white;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     font-family: 'Cormorant', serif;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 400;
 }
 
@@ -877,7 +886,7 @@ html {
 }
 
 .serviço-info li {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 24px;
     position: relative;
     padding-left: 60px;
@@ -889,16 +898,17 @@ html {
     position: absolute;
     left: 0;
     color: #BF9765;
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
+    margin-bottom: 25px;
 }
 
 .serviço-ctt p {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: 'Cormorant', serif;
-    font-size: 32px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 400;
     color: #F4F4F4;
     margin-top: 160px;
 }
@@ -907,15 +917,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 315px;
-    height: 70px;
+    width: 250px;
+    height: 58px;
     margin: 70px auto 0;
     background: #BF9765;
     border-radius: 50px;
     color: #F4F4F4;
     font-family: 'Cormorant', serif;
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 18px;
     text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transition: .3s;
@@ -945,7 +954,7 @@ html {
     margin: 0 0 20px;
     color: #BF9765;
     font-family: "Inter", serif;
-    font-size: 46px;
+    font-size: 24px;
     font-weight: 700;
 }
 
@@ -954,7 +963,7 @@ html {
     margin: 0;
     color: #402A10;
     font-family: "Cormorant", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.7;
     font-weight: 700;
 }
@@ -962,17 +971,17 @@ html {
 
 .footer-contato h3,
 .footer-local h3 {
-    margin: 30px 0 30px;
+    margin: 10px 0 30px;
     color: #BF9765;
     font-family: "Inter", serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .footer-contato p {
     margin-bottom: 30px;
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.6;
 }
 
@@ -997,7 +1006,7 @@ html {
     margin: 0 0 20px;
     color: #402A10;
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 1.7;
     width: 500px;
 
@@ -1006,7 +1015,7 @@ html {
 .footer-mapa {
     color: #BF9765;
     font-family: "Cormorant", sans-serif;
-    font-size: 30px;
+    font-size: 22px;
     font-weight: 600;
     text-decoration: none;
     transition: 0.3s;
@@ -1023,14 +1032,14 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
-    height: 70px;
-    margin: 70px 0 0;
+    width: 270px;
+    height: 58px;
+    margin: 50px 0 0;
     background: #BF9765;
     border-radius: 50px;
     color: #F4F4F4;
     font-family: 'Cormorant', serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     text-decoration: none;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -1041,9 +1050,6 @@ html {
     transform: translateY(-3px);
 }
 
-.footer-btn:hover {
-    transform: translateY(-3px);
-}
 
 .footer-linha {
     max-width: 1400px;
@@ -1067,7 +1073,7 @@ html {
     margin: 0;
     color: #7c7c7c;
     font-family: "Inter", sans-serif;
-    font-size: 22px;
+    font-size: 16px;
 }
 
 .footer-bottom strong {
@@ -1078,9 +1084,9 @@ html {
 .footer-creditos {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 18px;
     font-family: "Inter", sans-serif;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -1092,7 +1098,7 @@ html {
 .footer-creditos strong {
     color: #BF9765;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .footer-creditos a {
@@ -1113,527 +1119,706 @@ responsive
 
 @media (max-width: 768px) {
 
+    
+
+    html,
     body {
-        padding-top: 80px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0px;
+        overflow-x: hidden;
+
     }
 
+    body {
+        padding-top: 75px;
+    }
+
+    section,
+    footer {
+        width: 100%;
+        max-width: 100%;
+    }
 
     /* header */
 
     .header {
-        padding: 15px 20px;
-        height: 80px;
+        width: 100%;
+        padding: 10px 20px;
+        height: 75px;
+        justify-content: space-between;
     }
 
     .logo img {
-        width: 60px;
+        width: 58px;
     }
 
-.menu-mobile {
-    display: block;
-    margin-left: auto;
-    background: none;
-    border: none;
-    color: #F4F4F4;
-    font-size: 32px;
-    cursor: pointer;
-}
-
-.menu {
-    display: none;
-}
-
-.menu.ativo {
-    display: block;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    right: 0;
-    width: 100%;
-    transform: none;
-    box-sizing: border-box;
-    background: #2B2B2B;
-    padding: 20px 30px;
-    z-index: 1000;
-}
-
-.menu.ativo ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.menu.ativo li {
-    display: block;
-    width: 100%;
-}
-
-.menu.ativo a {
-    display: block;
-    color: #F4F4F4;
-    font-size: 17px;
-    text-decoration: none;
-}
-
-.menu a::after {
-    bottom: -5px;
-    height: 2px;
-}
-
-/* hero */
-
-.hero {
-    height: calc(100vh - 80px);
-    min-height: 650px;
-}
-
-.hero-content {
-    width: 90%;
-}
-
-.hero-logo img {
-    width: 90%;
-    max-width: 450px;
-    margin-bottom: 20px;
-    transform: none;
-}
-
-.hero-content h1 {
-    font-size: 34px;
-    padding: 20px 0;
-}
-
-.hero-content p {
-    font-size: 17px;
-    line-height: 1.5;
-    margin-top: 10px;
-}
-
-.btn-hero {
-    width: 260px;
-    height: 60px;
-    margin-top: 50px;
-    font-size: 20px;
-}
-
-
-/* intro */
-
-.intro {
-    padding: 60px 25px;
-}
-
-.intro-container {
-    flex-direction: column;
-    gap: 40px;
-    text-align: center;
-}
-
-.intro-texto h2 {
-    font-size: 36px;
-}
-
-.infos {
-    width: 100%;
-}
-
-.infos-item {
-    align-items: flex-start;
-    text-align: left;
-}
-
-.infos-item a {
-    font-size: 20px;
-}
-
-
-/* sobre */
-
-.sobre {
-    padding: 80px 25px;
-}
-
-.sobre h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.sobre-container {
-    flex-direction: column;
-    gap: 40px;
-}
-
-.sobre-slider {
-    width: 100%;
-    height: 450px;
-}
-
-.sobre-texto h3 {
-    font-size: 24px;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.sobre-texto p {
-    font-size: 18px;
-    padding: 0;
-    text-align: left;
-    margin-bottom: 35px;
-}
-
-
-/* mvv */
-
-.mvv {
-    padding: 80px 25px;
-}
-
-.mvv-container {
-    flex-direction: column;
-    gap: 70px;
-}
-
-.mvv-card {
-    width: 100%;
-    max-width: 450px;
-    margin: 0 auto;
-}
-
-.mvv-card img {
-    width: 80px;
-    height: 80px;
-}
-
-.mvv-card h2 {
-    font-size: 34px;
-    margin-bottom: 15px;
-}
-
-.mvv-card p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-
-
-/* vantagens */
-
-.vantagens {
-    padding: 90px 25px;
-}
-
-.vantagens-grid {
-    grid-template-columns: 1fr;
-    gap: 25px;
-}
-
-.vantagem-card {
-    padding: 25px 20px;
-}
-
-.vantagem-card:hover {
-    transform: none;
-    box-shadow: none;
-}
-
-
-/* espaços */
-
-.espacos {
-    padding: 80px 20px;
-}
-
-.espacos-titulos {
-    margin-bottom: 60px;
-}
-
-.espacos-titulos h2 {
-    font-size: 38px;
-}
-
-.espacos-titulos p {
-    font-size: 19px;
-}
-
-.espaco-card,
-.espaco-card.reverse {
-    flex-direction: column;
-    gap: 35px;
-    margin-bottom: 100px;
-}
-
-.espaco-slider {
-    width: 100%;
-    max-width: 450px;
-    height: 450px;
-}
-
-.espaco-texto {
-    width: 100%;
-    max-width: 450px;
-}
-
-.espaco-texto h3 {
-    font-size: 34px;
-    margin-bottom: 20px;
-}
-
-.espaco-texto h4 {
-    font-size: 21px;
-    margin-bottom: 20px;
-}
-
-.espaco-texto p {
-    font-size: 18px;
-    text-align: left;
-    line-height: 1.6;
-}
-
-.btn-espaco {
-    width: 90%;
-    max-width: 350px;
-    height: 60px;
-    margin-top: 40px;
-    font-size: 20px;
-}
-
-
-/* modal */
-
-.imagem-modal {
-    width: 90%;
-    max-height: 75vh;
-}
-
-.fechar-galeria {
-    top: 20px;
-    right: 20px;
-}
-
-.anterior {
-    left: 10px;
-}
-
-.proximo {
-    right: 10px;
-}
-
-.anterior,
-.proximo {
-    width: 45px;
-    height: 45px;
-    font-size: 24px;
-}
-
-
-/* avaliações */
-
-.comentarios {
-    padding: 80px 20px;
-    margin-bottom: 0;
-}
-
-.comentarios h2 {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-
-.cards-comentarios {
-    flex-direction: column;
-    align-items: center;
-}
-
-.comentario-card {
-    width: 100%;
-    max-width: 450px;
-    padding: 25px;
-}
-
-.comentario-topo h3 {
-    font-size: 19px;
-}
-
-.comentario-card p {
-    font-size: 18px;
-}
-
-.mais-avaliacoes,
-.avaliar {
-    font-size: 24px;
-}
-
-
-/* empresas */
-
-.empresas {
-    padding: 80px 20px;
-}
-
-.titulo-empresas h2 {
-    font-size: 36px;
-    padding: 0;
-    margin-bottom: 50px;
-}
-
-.logos-empresas {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px 20px;
-}
-
-.logos-empresas img {
-    width: 130px;
-    height: 70px;
-}
-
-.frase-empresas {
-    font-size: 18px;
-    padding: 70px 10px;
-}
-
-
-/* serviços */
-
-.serviços {
-    padding: 80px 20px;
-}
-
-.titulo-serviços h2 {
-    font-size: 38px;
-    margin-bottom: 30px;
-}
-
-.titulo-serviços p {
-    font-size: 19px;
-    margin-bottom: 60px;
-}
-
-.serviço {
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 80px;
-}
-
-.servico-img {
-    width: 100%;
-    max-width: 450px;
-}
-
-.servico-img img {
-    height: 300px;
-}
-
-.servico-img h3 {
-    font-size: 30px;
-    padding: 20px;
-}
-
-.serviço-info {
-    width: 100%;
-    max-width: 450px;
-}
-
-.serviço-info li {
-    font-size: 18px;
-    margin-bottom: 18px;
-    padding-left: 40px;
-}
-
-.serviço-info li::before {
-    font-size: 24px;
-}
-
-.serviço-ctt p {
-    font-size: 26px;
-    margin-top: 80px;
-}
-
-.btn-agendar {
-    width: 90%;
-    max-width: 315px;
-    height: 60px;
-    font-size: 20px;
-}
-
-
-/* footer */
-
-.fo.footer {
-    padding: 70px 25px 40px;
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
-
-.footer-marca h2 {
-    font-size: 36px;
-    margin-bottom: 15px;
-}
-
-.footer-marca p {
-    max-width: 100%;
-    font-size: 23px;
-    line-height: 1.5;
-}
-
-.footer-btn {
-    width: 100%;
-    max-width: 320px;
-    height: 60px;
-    margin-top: 35px;
-    font-size: 21px;
-}
-
-.footer-contato h3,
-.footer-local h3 {
-    font-size: 27px;
-    margin: 0 0 20px;
-}
-
-.footer-contato p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.footer-local p {
-    width: 100%;
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 15px;
-}
-
-.footer-mapa {
-    font-size: 24px;
-}
-
-.footer-linha {
-    margin: 50px auto 30px;
-}
-
-.footer-bottom {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 25px;
-}
-
-.footer-bottom p {
-    font-size: 16px;
-}
-
-.footer-creditos {
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 17px;
-}
-
-.footer-creditos strong {
-    font-size: 17px;
-}
+    .menu-mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 40px;
+        height: 40px;
+
+        background: transparent;
+        border: none;
+        color: #F4F4F4;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: none;
+
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background: #2B2B2B;
+        padding: 35px 30px;
+        transform: none;
+    }
+
+    .menu.ativo {
+        display: block;
+
+    }
+
+    .menu.ativo ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 18px;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .menu.ativo li {
+        display: block;
+        width: 100%;
+    }
+
+    .menu.ativo a {
+
+        font-size: 16px;
+
+    }
+
+    .menu a::after {
+        bottom: -4px;
+        height: 2px;
+    }
+
+    /* hero */
+
+    .hero {
+        width: 100%;
+        height: calc(100vh - 75px);
+        min-height: 550px;
+        position: relative;
+    }
+
+    .hero-slider {
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+        filter: blur(3px);
+        transform: scale(1.05);
+    }
+
+    .hero-content {
+        width: 90%;
+        max-width: 400px;
+
+        left: 50%;
+        top: 50%;
+    }
+
+    .hero-logo img {
+        width: 260px;
+        max-width: 75vw;
+        margin-bottom: 10px;
+        transform: none;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+        padding: 15px 0;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        width: 100%;
+        max-width: 330px;
+        font-size: 14px;
+        line-height: 1.5;
+
+        margin: 10px auto 0;
+
+    }
+
+    .btn-hero {
+        width: 200px;
+        height: 48px;
+        margin: 20px auto 0px;
+        font-size: 14px;
+    }
+
+
+
+    /* intro */
+
+    .intro {
+        width: 100%;
+        padding: 60px 25px;
+    }
+
+    .intro-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .intro-texto{
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-texto h3 {
+        padding: 0;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+    .infos {
+        width: 100%;
+        padding: 10px 0;
+        gap: 20px;
+
+    }
+
+    .infos-item {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .infos-item a {
+        font-size: 16px;
+    }
+
+
+    /* sobre */
+
+    .sobre {
+        width: 100%;
+        padding: 80px 25px;
+        scroll-margin-top: 75px;
+    }
+
+    .sobre h2 {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .sobre-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .sobre-slider {
+        width: 85%;
+        max-width: 320px;
+        height: 360px;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    .sobre-texto h3 {
+        font-size: 18px;
+        padding: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .sobre-texto p {
+        font-size: 14px;
+        padding: 0;
+        text-align: left;
+        margin: 0 auto 60px;
+        line-height: 1.6;
+        max-width: 300px;
+        text-align: justify;
+    }
+
+
+    /* mvv */
+
+    .mvv {
+        width: 100%;
+        padding: 80px 25px;
+    }
+
+    .mvv-container {
+        width: 100%;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .mvv-card {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .mvv-card img {
+        width: 50px;
+        margin-bottom: 15px;
+    }
+
+    .mvv-card h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .mvv-card p {
+        font-size: 14px;
+        line-height: 1.6;
+        max-width: 250px;
+    }
+
+
+    /* vantagens */
+
+    .vantagens {
+        width: 100%;
+        padding: 70px 20px;
+        scroll-margin-top: 75px;
+    }
+
+    .vantagens-container {
+        width: 100%;
+    }
+
+    .vantagens h2 {
+        font-size: 26px;
+        padding: 0;
+        margin: 20px auto 15px;
+        line-height: 1.2;
+    }
+
+    .vantagens .subtitulo {
+        font-size: 16px;
+        line-height: 1.4;
+        margin: 0 auto 30px;
+    }
+
+    .vantagem-card h3 {
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+
+    .vantagem-card p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .vantagens-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+        padding: 0;
+    }
+
+    .vantagem-card {
+        
+        width: 100%;
+        min-width: 0;
+
+        height: auto;
+        min-height: 240px;
+
+
+        padding: 15px 10px;
+        border: 2px solid #BF9765;
+
+        border-radius: 20px;
+    }
+
+    .icone {
+        width: 38px;
+        height: 38px;
+        margin: 12px auto 15px;
+    }
+
+    .icone img {
+        width: 30px;
+    }
+
+    .vantagem-card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+    /* espaços */
+
+    .espacos {
+        width: 100%;
+        padding: 80px 25px;
+        scroll-margin-top: 75px;
+    }
+
+    .espacos-titulos {
+        width: 100%;
+        margin: 0 auto 60px;
+    }
+
+    .espacos-titulos h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .espacos-titulos p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .espaco-card,
+    .espaco-card.reverse {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 90px;
+    }
+
+    .espaco-slider {
+        width: 80%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .espaco-texto {
+        width: 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .espaco-texto h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .espaco-texto h4 {
+        width: 100%;
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .espaco-texto p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
+        text-align: justify;
+        line-height: 1.6;
+    }
+
+    .btn-espaco {
+        width: 240px;
+        height: 48px;
+        margin: 20px auto 0px;
+        font-size: 14px;
+    }
+
+    .galeria-indicador img{
+        width: 13px;
+        height: 13px;
+    }
+    /* modal */
+
+    .imagem-modal {
+        width: 90%;
+        max-height: 75vh;
+    }
+
+    .fechar-galeria {
+        top: 20px;
+        right: 20px;
+    }
+
+    .anterior {
+        left: 10px;
+    }
+
+    .proximo {
+        right: 10px;
+    }
+
+    .anterior,
+    .proximo {
+        width: 45px;
+        height: 42px;
+        font-size: 20px;
+    }
+
+
+    /* avaliações */
+
+    .comentarios {
+        width: 100%;
+        padding: 80px 20px;
+        margin-bottom: 100px;
+    }
+
+    .comentarios h2 {
+        font-size: 26px;
+        margin-bottom: 40px;
+    }
+
+    .cards-comentarios {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .comentario-card {
+        width: 100%;
+        max-width: 400px;
+        padding: 20px;
+        border: 3px solid #BF9765;
+    }
+
+    .comentario-topo {
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+
+    .comentario-topo h3 {
+        font-size: 16px;
+    }
+
+    .comentario-card p {
+        font-size: 14px;
+    }
+
+    .avatar{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    .avaliacao{
+        font-size: 16px;
+    }
+    
+    .mais-avaliacoes,
+    .avaliar {
+        font-size: 18px;
+    }
+
+    .avaliar {
+        margin-top: 50px;
+    }
+
+    /* empresas */
+
+    .empresas {
+        width: 100%;
+        padding: 80px 25px;
+    }
+
+    .titulo-empresas h2 {
+        font-size: 26px;
+        padding: 0;
+        margin: 0 0 45px;
+        line-height: 1.2;
+    }
+
+    .logos-empresas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px 20px;
+    }
+
+    .logos-empresas img {
+        width: 90px;
+        height: 65px;
+    }
+
+    .frase-empresas {
+        width: 100%;
+        font-size: 16px;
+        padding: 20px 0;
+        line-height: 1.5;
+    }
+
+
+    /* serviços */
+
+    .serviços {
+        width: 100%;
+        padding: 80px 25px;
+    }
+
+    .serviço-container{
+        width: 100%;
+    }
+
+    .titulo-serviços h2 {
+        font-size: 26px;
+        margin-bottom: 25px;
+    }
+
+    .titulo-serviços p {
+        font-size: 16px;
+        margin-bottom: 50px;
+        line-height: 1.5;
+    }
+
+    .serviço {
+        width: 100%;
+        flex-direction: column;
+        gap: 25px;
+        margin-bottom: 80px;
+    }
+
+    .servico-img {
+        width: 100%;
+        max-width: 250px;
+        padding: 0 0 30px;
+    }
+
+    .servico-img img {
+        width: 100%;
+        height: 230px;
+    }
+
+    .servico-img h3 {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .serviço-info {
+        width: 100%;
+    }
+
+    .serviço-info li {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        padding-left: 35px;
+    }
+
+    .serviço-info li::before {
+        font-size: 16px;
+    }
+
+    .serviço-ctt p {
+        font-size: 18px;
+        margin-top: 70px;
+        line-height: 1.5;
+    }
+
+    .btn-agendar {
+        width: 200px;
+        height: 48px;
+        font-size: 14px;
+        margin-top: 35px;
+    }
+
+
+    /* footer */
+
+    .footer {
+        width: 100%;
+        padding: 80px 25px 50px;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 45px;
+    }
+
+    .footer-marca h2 {
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .footer-marca p {
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .footer-btn {
+        width: 100%;
+        max-width: 200px;
+        height: 48px;
+        margin-top: 35px;
+        font-size: 14px;
+    }
+
+    .footer-contato h3,
+    .footer-local h3 {
+        font-size: 18px;
+        margin: 0 0 20px;
+    }
+
+    .footer-contato p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer-local p {
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+
+    .footer-mapa {
+        font-size: 18px;
+    }
+
+    .footer-linha {
+        height: 2px;
+        margin: 50px auto 30px;
+    }
+
+    .footer-bottom {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-bottom p {
+        font-size: 14px;
+    }
+
+    .footer-creditos {
+        display: flex;
+        gap: 5px;
+        font-size: 14px;
+    }
+
+    .footer-creditos strong {
+        font-size: 14px;
+    }
 }
