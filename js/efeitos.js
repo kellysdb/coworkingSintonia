@@ -19,6 +19,7 @@ function trocarImagem() {
 
 setInterval(trocarImagem, 3000);
 
+
 /* carrossel sobre */
 
 const imagensSobre = document.querySelectorAll(".sobre-img");

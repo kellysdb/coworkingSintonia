@@ -1119,7 +1119,7 @@ responsive
 
 @media (max-width: 768px) {
 
-    
+
 
     html,
     body {
@@ -1288,7 +1288,7 @@ responsive
         gap: 40px;
     }
 
-    .intro-texto{
+    .intro-texto {
         width: 100%;
         text-align: center;
     }
@@ -1305,16 +1305,25 @@ responsive
         width: 100%;
         padding: 10px 0;
         gap: 20px;
+        align-items: center;
 
     }
 
     .infos-item {
+        width: fit-content;
         align-items: flex-start;
         text-align: left;
     }
 
+    .infos-item img {
+        width: 15px;
+        height: 15px;
+    }
+
     .infos-item a {
         font-size: 16px;
+        display: block;
+        text-align: left;
     }
 
 
@@ -1445,7 +1454,7 @@ responsive
     }
 
     .vantagem-card {
-        
+
         width: 100%;
         min-width: 0;
 
@@ -1531,7 +1540,8 @@ responsive
 
     .espaco-texto p {
         width: 100%;
-        max-width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
         font-size: 14px;
         text-align: justify;
         line-height: 1.6;
@@ -1544,10 +1554,11 @@ responsive
         font-size: 14px;
     }
 
-    .galeria-indicador img{
+    .galeria-indicador img {
         width: 13px;
         height: 13px;
     }
+
     /* modal */
 
     .imagem-modal {
@@ -1616,16 +1627,16 @@ responsive
         font-size: 14px;
     }
 
-    .avatar{
+    .avatar {
         width: 35px;
         height: 35px;
         font-size: 16px;
     }
 
-    .avaliacao{
+    .avaliacao {
         font-size: 16px;
     }
-    
+
     .mais-avaliacoes,
     .avaliar {
         font-size: 18px;
@@ -1661,6 +1672,7 @@ responsive
 
     .frase-empresas {
         width: 100%;
+        max-width: 450px;
         font-size: 16px;
         padding: 20px 0;
         line-height: 1.5;
@@ -1674,7 +1686,7 @@ responsive
         padding: 80px 25px;
     }
 
-    .serviço-container{
+    .serviço-container {
         width: 100%;
     }
 
@@ -1713,7 +1725,9 @@ responsive
     }
 
     .serviço-info {
-        width: 100%;
+        width: fit-content;
+        max-width: 100%;
+        margin: 0 auto;
     }
 
     .serviço-info li {
@@ -1725,6 +1739,7 @@ responsive
 
     .serviço-info li::before {
         font-size: 16px;
+
     }
 
     .serviço-ctt p {
@@ -1821,4 +1836,261 @@ responsive
     .footer-creditos strong {
         font-size: 14px;
     }
+}
+
+/*===============
+responsive 
+=================*/
+
+/* notebook */
+
+@media (min-width: 769px) and (max-width: 1366px) {
+
+
+    body {
+        padding-top: 74px;
+    }
+
+
+    /* header */
+
+    .header {
+        padding: 18px 50px;
+        margin: 0;
+    }
+
+    .menu ul {
+        gap: 30px;
+    }
+
+    .menu a {
+        font-size: 16px;
+    }
+
+    .logo img {
+        width: 70px;
+    }
+
+    /* hero */
+
+    .hero {
+        height: calc(100vh - 74px);
+        margin-top: 0;
+    }
+
+    .hero-logo img {
+        width: 400px;
+        max-width: 70vw;
+        margin-top: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        max-width: 600px;
+    }
+
+    /* intro */
+
+    .intro {
+        padding: 60px 50px;
+    }
+
+    .intro-container {
+        gap: 80px;
+    }
+
+    .intro-texto h3 {
+        padding: 60px 30px;
+        font-size: 24px;
+    }
+
+    .infos-item a {
+        font-size: 18px;
+    }
+
+    .infos-item img {
+        width: 14px;
+        height: 14px;
+    }
+
+
+    /* sobre */
+
+    .sobre {
+        padding: 150px 50px;
+    }
+
+    .sobre-slider {
+        width: 400px;
+        height: 450px;
+    }
+
+    .sobre-texto p {
+        max-width: 500px;
+    }
+
+    /* mvv */
+
+    .mvv {
+        padding: 120px 50px;
+    }
+
+    .mvv-container {
+        gap: 80px;
+    }
+
+    /* vantagens */
+
+    .vantagens {
+        padding: 80px 40px;
+    }
+
+    .vantagens-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+        padding: 40px 20px;
+    }
+
+    .vantagem-card {
+        width: 100%;
+        height: 330px;
+        padding: 20px;
+    }
+
+    .vantagem-card h3 {
+        font-size: 24px;
+    }
+
+    .vantagem-card p {
+        font-size: 16px;
+    }
+
+
+    /* espaços */
+
+    .espacos {
+        padding: 120px 50px;
+    }
+
+    .espaco-card {
+        gap: 60px;
+        margin-bottom: 150px;
+    }
+
+    .espaco-slider {
+        width: 280px;
+        height: 370px;
+    }
+
+    .espaco-texto {
+        max-width: 500px;
+    }
+
+    .espaco-texto h3 {
+        font-size: 24px;
+    }
+
+    .espaco-texto h4 {
+        font-size: 16px;
+    }
+
+    .espaco-texto p {
+        font-size: 16px;
+        max-width: 450px;
+    }
+
+
+    /* avaliações */
+
+    .comentarios {
+        padding: 100px 50px;
+        margin-bottom: 180px;
+    }
+
+    .cards-comentarios {
+        gap: 25px;
+    }
+
+    .comentario-card {
+        width: 31%;
+        padding: 25px;
+    }
+
+    .comentario-topo h3 {
+        font-size: 17px;
+    }
+
+    .comentario-card p {
+        font-size: 14px;
+    }
+
+
+    /* empresas */
+
+    .empresas {
+        padding: 120px 50px;
+    }
+
+    .logos-empresas {
+        gap: 60px 40px;
+    }
+
+    .logos-empresas img {
+        width: 110px;
+        height: 80px;
+    }
+
+    .titulo-empresas h2 {
+        padding: 30px;
+    }
+
+    /* serviços */
+
+    .serviços {
+        padding: 120px 60px;
+        gap: 60px;
+        margin-bottom: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+
+    .servico-img {
+        width: 300px;
+    }
+
+    .servico-img img {
+        height: 270px;
+    }
+
+    .serviço-info li {
+        font-size: 15px;
+        margin-bottom: 20px;
+        padding-left: 45px;
+    }
+
+
+    /* footer */
+
+    .footer {
+        padding: 150px 50px 100px;
+    }
+
+    .footer-container {
+        gap: 80px;
+    }
+
+    .footer-local p {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
 }
