@@ -855,6 +855,11 @@ html {
     align-items: center;
     gap: 90px;
     margin-bottom: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .servico-img {
@@ -1684,6 +1689,10 @@ responsive
     .serviços {
         width: 100%;
         padding: 80px 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .serviço-container {
